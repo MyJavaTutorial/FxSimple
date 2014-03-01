@@ -10,13 +10,13 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<fx:root type="javafx.scene.layout.BorderPane" prefHeight="320.0" prefWidth="480.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="fxhelloworld.FxHelloWorld">
+<fx:root type="javafx.scene.layout.BorderPane" prefHeight="320.0" prefWidth="480.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="fxsimple.FxSimple">
   <bottom>
     <Text fx:id="status" text="status bar" textAlignment="CENTER" BorderPane.alignment="BOTTOM_RIGHT" />
   </bottom>
   <center>
     <VBox fillWidth="true"  spacing="10.0">
-      <TextField fx:id="txtOne" prefWidth="100.0" text="Hello World!" />
+      <TextField fx:id="txtOne" prefWidth="100.0" text="JavaFX" />
       <TextField fx:id="txtTwo" prefWidth="100.0" />
       <TextArea fx:id="txtArea" prefHeight="100.0" prefWidth="150.0" wrapText="true" />
     </VBox>
@@ -42,7 +42,7 @@
           <Image url="@bell.jpg" />
         </image>
       </ImageView>
-      <Text id="title" opacity="0.75" rotate="6.0" text="FX Hello World" textAlignment="CENTER" />
+      <Text id="title" opacity="0.75" rotate="6.0" text="FX Simple" textAlignment="CENTER" />
     </HBox>
   </top>
 </fx:root>

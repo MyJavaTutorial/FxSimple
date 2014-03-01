@@ -1,8 +1,8 @@
 /*
- * FxHelloWorld
+ * FxSimple
  */
 
-package fxhelloworld;
+package fxsimple;
 
 import java.io.IOException;
 import javafx.application.Application;
@@ -20,7 +20,7 @@ import javafx.event.ActionEvent;
  *
  * @author Sandro
  */
-public class FxHelloWorld extends Application {
+public class FxSimple extends Application {
 
     int count = 0;
     Stage stage = null;
@@ -37,7 +37,7 @@ public class FxHelloWorld extends Application {
     @Override
     public void start(Stage stage) {
         this.stage = stage;
-        open("fxhelloworld.fxml");
+        open("fxsimple.fxml");
     }
  
     void open(String fxml) {
@@ -77,6 +77,5 @@ public class FxHelloWorld extends Application {
         txtArea.appendText("[" + count + "] " + msg + "\n");
         status.setText(msg);
     }
-    
     
 }
